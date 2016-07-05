@@ -59,7 +59,7 @@ body {
   color: #128aa7;
 }
 .countries {
-  width: 353px;
+  width: 373px;
   height: 56px;
   position: absolute;
   top: 113px;
@@ -68,6 +68,7 @@ body {
 .countries>ul>li {
   display: inline-block;
   float: right;
+  padding-left: 4px;
   height: 56px;
   width: 53px;
   text-align: center;
@@ -159,10 +160,11 @@ ul.menu > li:hover > ul.submenu {
 }
 .container {
   width: 1000px;
+  height: 546px;
   font-size: 14px;
-  background-color: white;
+  /*background-color: white;*/
   visibility: visible;
-  overflow: auto;
+  overflow: hidden;
 }
 .fon_information {
   width: 1000px;
